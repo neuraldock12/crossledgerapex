@@ -90,6 +90,7 @@ const CSS = `
   font-family:var(--display);font-stretch:118%;font-weight:700;
   font-size:18px;letter-spacing:-.02em;color:var(--on-ink-hi);
   text-decoration:none;display:flex;align-items:center;gap:9px;
+  --logo-accent:var(--brand-lt);
 }
 .logo__t{display:flex;flex-direction:column;line-height:1.02}
 .logo__t small{
