@@ -727,7 +727,7 @@ export default function Crossledger() {
           <a className="logo" href="#top"><svg className="logo__mk" viewBox="0 0 16 16" aria-hidden="true"><path d="M15.25 0.75 L0.75 0.75 L0.75 15.25" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M15.25 0.75 L15.25 15.25 L0.75 15.25" fill="none" stroke="var(--logo-accent,#0D2FFF)" strokeWidth="1.5" /></svg><span className="logo__t">{BRAND}<small>{PARENT}</small></span></a>
           <span className="nav__sp" />
           <span className="nav__note">Works with Eaglesoft</span>
-          <a className="btn" href="#book">Book an audit</a>
+          <a className="btn" href="https://calendly.com/manueldentalrobot/new-meeting" target="_blank" rel="noopener noreferrer">Book an audit</a>
         </div>
       </header>
 
@@ -743,7 +743,7 @@ export default function Crossledger() {
               where the two stop agreeing.
             </p>
             <div className="hero__cta">
-              <a className="btn" href="#book">Book an audit</a>
+              <a className="btn" href="https://calendly.com/manueldentalrobot/new-meeting" target="_blank" rel="noopener noreferrer">Book an audit</a>
               <a className="btn btn--ghost" href="#findings">See what it finds</a>
             </div>
 
@@ -1029,7 +1029,7 @@ export default function Crossledger() {
               Book a 24-month audit on one location. You'll get the exception worklist and the
               recoverable total before you decide anything else.
             </p>
-            <a className="btn" href="#book">Book an audit</a>
+            <a className="btn" href="https://calendly.com/manueldentalrobot/new-meeting" target="_blank" rel="noopener noreferrer">Book an audit</a>
           </div>
         </section>
       </main>
