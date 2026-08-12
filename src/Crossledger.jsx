@@ -97,13 +97,7 @@ const CSS = `
   text-transform:uppercase;opacity:.62;margin-top:3px;
 }
 .foot .logo__t small{opacity:.75}
-.logo__mk{
-  width:15px;height:15px;flex:none;
-  border:1.5px solid var(--on-ink);
-  border-right-color:var(--brand-lt);
-  border-bottom-color:var(--brand-lt);
-  transform:rotate(0deg);
-}
+.logo__mk{width:15px;height:15px;flex:none;display:block}
 .nav__sp{flex:1}
 .nav__note{
   font-family:var(--mono);font-size:11px;letter-spacing:.1em;
@@ -730,7 +724,7 @@ export default function Crossledger() {
 
       <header className="nav">
         <div className="nav__in">
-          <a className="logo" href="#top"><span className="logo__mk" aria-hidden="true" /><span className="logo__t">{BRAND}<small>{PARENT}</small></span></a>
+          <a className="logo" href="#top"><svg className="logo__mk" viewBox="0 0 16 16" aria-hidden="true"><path d="M15.25 0.75 L0.75 0.75 L0.75 15.25" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M15.25 0.75 L15.25 15.25 L0.75 15.25" fill="none" stroke="var(--logo-accent,#0D2FFF)" strokeWidth="1.5" /></svg><span className="logo__t">{BRAND}<small>{PARENT}</small></span></a>
           <span className="nav__sp" />
           <span className="nav__note">Works with Eaglesoft</span>
           <a className="btn" href="#book">Book an audit</a>
@@ -1042,7 +1036,7 @@ export default function Crossledger() {
 
       <footer className="foot">
         <div className="wrap foot__in">
-          <a className="logo" href="#top"><span className="logo__mk" aria-hidden="true" /><span className="logo__t">{BRAND}<small>{PARENT}</small></span></a>
+          <a className="logo" href="#top"><svg className="logo__mk" viewBox="0 0 16 16" aria-hidden="true"><path d="M15.25 0.75 L0.75 0.75 L0.75 15.25" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M15.25 0.75 L15.25 15.25 L0.75 15.25" fill="none" stroke="var(--logo-accent,#0D2FFF)" strokeWidth="1.5" /></svg><span className="logo__t">{BRAND}<small>{PARENT}</small></span></a>
           <span className="foot__sp" />
           <span>Security</span><span>HIPAA / BAA</span><span>Contact</span>
           <span>&copy; 2026</span>
